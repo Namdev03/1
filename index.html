@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+<style>
+  .container-fluid{
+    position: fixed;
+    background-color: brown;
+    overflow: visible;
+    height: 10%;
+  }
+   .banner-container {
+    
+      top:0%;
+      height: 300px;
+      max-width: 1540px;
+      margin: 40px auto;
+      overflow:hidden;
+      
+     
+    }
+
+    .banner-slider {
+      display: flex;
+      width: 300%;
+      height: 100%;
+      animation: slide 10s infinite;
+    }
+
+    .banner-slider img {
+      width: 100%;
+      height: 200%;
+      
+    }
+    @keyframes slide {
+      0%, 20% {
+        margin-left: 0%;
+      }
+      25%, 45% {
+        margin-left:  -100%;
+      }
+      50%, 70% {
+        margin-left: -200%;
+      }
+      75%, 100% {
+        margin-left: 0%;
+      }
+    }
+.border{ 
+  background-color:wheat;
+
+}
+.pagination{
+  text-align: center;
+}
+    
+     
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true"></a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  <div class="banner-container">
+    <div class="banner-slider">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" alt="Banner 1">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" alt="Banner 2">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" alt="Banner 3">
+    </div>
+  </div>
+<div class="row row-cols-1 row-cols-md-4">
+  <div class="col">
+    <div class="card">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">For bachelors</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">For bachelors </h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+   <div class="col">
+    <div class="card">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+   <div class="col">
+    <div class="card">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+   <div class="col">
+    <div class="card">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div> <div class="col">
+    <div class="card">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+  <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <h1 class="page-item"><a class="page-link" href="#">Previous</a></h1>
+    <h1 class="page-item"><a class="page-link" href="#">1</a></h1>
+    <h1 class="page-item"><a class="page-link" href="#">2</a></h1>
+    <h1 class="page-item"><a class="page-link" href="#">3</a></h1>
+    <h1 class="page-item"><a class="page-link" href="#">Next</a></h1>
+  </ul>
+</nav>
+</br>
+
+
+ <div class="banner-container">
+    <div class="banner-slider">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" alt="Banner 1">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" alt="Banner 2">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" alt="Banner 3">
+    </div>
+  </div>
+  <div class=" row row-cols-2 row-cols-md-12">
+  <div class="col">
+    <div class="card">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">For bachelors</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">For bachelors </h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+   <div class="col">
+    <div class="card">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">For bachelors</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assests/istockphoto-1418783006-612x612.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">For bachelors </h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <br>
+  <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <h1 class="page-item"><a class="page-link" href="#">Previous</a></h1>
+    <h1 class="page-item"><a class="page-link" href="#">1</a></h1>
+    <h1 class="page-item"><a class="page-link" href="#">2</a></h1>
+    <h1 class="page-item"><a class="page-link" href="#">3</a></h1>
+    <h1 class="page-item"><a class="page-link" href="#">Next</a></h1>
+  </ul>
+</nav>
+</br>
+
+   <footer class="bg-dark text-white pt-4">
+    <div class="container text-center text-md-start">
+      <div class="row">
+        <!-- Column 1 -->
+        <div class="col-md-3 mb-4">
+          <h5 class="text-uppercase"></h5>
+          <p></p>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="col-md-3 mb-4">
+          <h5 class="text-uppercase">Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">youtube</a></li>
+            <li><a href="#" class="text-white text-decoration-none">instagram</a></li>
+            <li><a href="#" class="text-white text-decoration-none">facebook</a></li>
+            <li><a href="#" class="text-white text-decoration-none"></a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="col-md-3 mb-4">
+          <h5 class="text-uppercase">Resources</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">Docs</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Blog</a></li>
+            <li><a href="#" class="text-white text-decoration-none">FAQ</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="col-md-3 mb-4">
+          <h5 class="text-uppercase">Contact</h5>
+          <p>Email: namdevkadam6266@gmail.com</p>
+          <p>Phone: +91 6266976479</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center p-3 bg-secondary">
+      ___Your dreems comes true___
+    </div>
+  </footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  
+</body>
+</html>
